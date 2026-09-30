@@ -19,7 +19,6 @@ spec:
       containers:
         - name: nginx
           image: praveenedward/static-website:v1
-          imagePullPolicy: Never
           ports:
             - containerPort: 80
 
